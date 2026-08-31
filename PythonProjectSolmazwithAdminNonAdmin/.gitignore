@@ -1,0 +1,18 @@
+# محیط مجازی پایتون
+.venv/
+venv/
+env/
+
+# فایل‌های کش پایتون
+__pycache__/
+*.py[cod]
+*$py.class
+
+# فایل‌های محیط توسعه (IDE)
+.idea/
+.vscode/
+
+# فایل‌های خروجی بیلد
+build/
+dist/
+*.spec
