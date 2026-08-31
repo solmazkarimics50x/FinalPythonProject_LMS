@@ -33,3 +33,16 @@ ENV/
 
 # فایل‌های لاگ
 *.log
+
+
+.venv/
+__pycache__/
+build/
+dist/
+*.mp4
+*.zip
+*.docx
+.idea/
+output/
+ExcelFiles/
+SyllabusFiles/
