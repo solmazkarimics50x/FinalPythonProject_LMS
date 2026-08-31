@@ -1,48 +1,33 @@
-# فایل‌های بزرگ و غیرضروری
-*.mp4
-*.avi
-*.mkv
-
-# فایل‌های موقت ویندوز
-Thumbs.db
-desktop.ini
-
-# فایل‌های پشتیبان
-*Backup*
-*backup*
-
-# فایل‌های خروجی پایتون
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# محیط مجازی پایتون
-venv/
-env/
-ENV/
-
-# فایل‌های IDE
-.vscode/
-.idea/
-*.sublime-workspace
-
-# فایل‌های Word (اختیاری - اگر نمی‌خواهید آپلود شوند)
-*.docx
-*.doc
-
-# فایل‌های لاگ
-*.log
-
-
-.venv/
-__pycache__/
-build/
+.Python
+*.so
+*.egg
+*.egg-info/
 dist/
-*.mp4
-*.zip
-*.docx
+build/
+.venv/
+env/
+venv/
+
+# IDE
 .idea/
-output/
-ExcelFiles/
-SyllabusFiles/
+.vscode/
+*.swp
+*.swo
+
+# SQL Server / Visual Studio
+bin/
+obj/
+*.sqlproj.user
+*.bak
+*.dbmdl
+Import Schema Logs/
+
+# Other
+*.spec
+*.user
+*.log

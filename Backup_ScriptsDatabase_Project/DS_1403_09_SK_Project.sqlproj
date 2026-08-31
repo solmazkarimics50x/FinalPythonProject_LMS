@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>DS_1403_09_SK_Project</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{d1a22a45-130f-400c-a736-e953697c0d64}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>DS_1403_09_SK_Project</RootNamespace>
+    <AssemblyName>DS_1403_09_SK_Project</AssemblyName>
+    <ModelCollation>1065,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>Persian_100_CI_AI</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\CourseCategory.sql" />
+    <Build Include="dbo\Tables\Student_Courses_Teacher.sql" />
+    <Build Include="dbo\Tables\Users.sql" />
+    <Build Include="dbo\Tables\Courses.sql" />
+    <Build Include="dbo\Tables\Education.sql" />
+    <Build Include="dbo\Tables\Person.sql" />
+    <Build Include="dbo\Tables\Student.sql" />
+    <Build Include="dbo\Tables\Job.sql" />
+    <Build Include="dbo\Tables\Department.sql" />
+    <Build Include="dbo\Tables\Employee.sql" />
+    <Build Include="dbo\Tables\Certificate.sql" />
+    <Build Include="dbo\Tables\Teacher.sql" />
+    <Build Include="dbo\Tables\Teacher_Certificate.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteEducation.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllDepartments.sql" />
+    <Build Include="dbo\Stored Procedures\sp_DepartmentInsert.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteDepartment.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateDepartment.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllCourseCategories.sql" />
+    <Build Include="dbo\Stored Procedures\GetCourseCategoryList.sql" />
+    <Build Include="dbo\Stored Procedures\GetEducationList.sql" />
+    <Build Include="dbo\Stored Procedures\sp_CourseCategoryInsert.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteCourseCategory.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateCourseCategory.sql" />
+    <Build Include="dbo\Stored Procedures\GetCoursesList.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllCoursess.sql" />
+    <Build Include="dbo\Stored Procedures\GetStudentByNationalCode.sql" />
+    <Build Include="dbo\Stored Procedures\CoursesInsert.sql" />
+    <Build Include="dbo\Stored Procedures\login_check.sql" />
+    <Build Include="dbo\Stored Procedures\sp_CoursesInsert.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteCourses.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateCourses.sql" />
+    <Build Include="dbo\Stored Procedures\GetStudentList.sql" />
+    <Build Include="dbo\Stored Procedures\sp_InsertStudent.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllStudents.sql" />
+    <Build Include="dbo\Stored Procedures\GetStudentScoreList.sql" />
+    <Build Include="dbo\Stored Procedures\GetTeacherScoreList.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllScores.sql" />
+    <Build Include="dbo\Stored Procedures\GetScoreList.sql" />
+    <Build Include="dbo\Stored Procedures\Sp_InsertTeacher.sql" />
+    <Build Include="dbo\Stored Procedures\GetTeacherList.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllTeachers.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateTeacher.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateScore.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteTeacher.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteScore.sql" />
+    <Build Include="dbo\Stored Procedures\GetTeacherByNationalCode.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllEmployees.sql" />
+    <Build Include="dbo\Stored Procedures\sp_ScoreInsert.sql" />
+    <Build Include="dbo\Stored Procedures\GetJobList.sql" />
+    <Build Include="dbo\Stored Procedures\GetDepartmentList.sql" />
+    <Build Include="dbo\Stored Procedures\Sp_InsertEmployee.sql" />
+    <Build Include="dbo\Stored Procedures\GetEmployeeList.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateEmployee.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteEmployee.sql" />
+    <Build Include="dbo\Stored Procedures\GetEmployeeByNationalCode.sql" />
+    <Build Include="dbo\Stored Procedures\InsertTeacher.sql" />
+    <Build Include="dbo\Stored Procedures\GetNewTeacherList.sql" />
+    <Build Include="dbo\Stored Procedures\GetNewALLTeachers.sql" />
+    <Build Include="dbo\Stored Procedures\DeleteTeacher.sql" />
+    <Build Include="dbo\Stored Procedures\GetNewTeacherByNationalCode.sql" />
+    <Build Include="dbo\Stored Procedures\sp_JobInsert.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllJobs.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteJob.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateJob.sql" />
+    <Build Include="dbo\Stored Procedures\sp_CertificateInsert.sql" />
+    <Build Include="dbo\Stored Procedures\RegisterUsers.sql" />
+    <Build Include="dbo\Stored Procedures\sp_CheckNationalCodeExists.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateStudent.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteStudent.sql" />
+    <Build Include="dbo\Stored Procedures\GetCertificateList.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllCertificates.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateCertificate.sql" />
+    <Build Include="dbo\Stored Procedures\SP_DeleteCertificate.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllEducations.sql" />
+    <Build Include="dbo\Stored Procedures\sp_EducationInsert.sql" />
+    <Build Include="dbo\Stored Procedures\UpdateEducation.sql" />
+    <Build Include="DatabaseDiagrams.sql" />
+  </ItemGroup>
+</Project>
