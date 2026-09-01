@@ -127,11 +127,8 @@ FinalProjectPython_SolmazKarimi/
 ├── requirements.txt              # Project Dependencies
 └── README.md                     # Project Documentation
 ```
-## 📺 Demo Video
-```bash
-[![Watch Demo](https://img.youtube.com/vi/Mrce1hDpajo/maxresdefault.jpg)](https://youtu.be/Mrce1hDpajo)
-```
-https://youtu.be/Mrce1hDpajo
+## 🎥 Video Tutorial
+[![Learning Management System - Desktop App with CustomTkinter & SQL](https://img.youtube.com/vi/Mrce1hDpajo/0.jpg)](https://youtu.be/Mrce1hDpajo)
 
 ---
 ## 👨‍🏫 Acknowledgments
