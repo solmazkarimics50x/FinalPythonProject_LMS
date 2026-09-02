@@ -1,4 +1,4 @@
-# 🎓 Learning Management System (LMS) - Final Python Project
+# 🎓 Learning Management System (LMS)
 
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/)
 [![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-green.svg)](https://customtkinter.tomschimansky.com/)
@@ -135,7 +135,8 @@ FinalProjectPython_SolmazKarimi/
 ## 🎥 Video Tutorial
 [![Learning Management System - Desktop App with CustomTkinter & SQL](https://img.youtube.com/vi/Mrce1hDpajo/0.jpg)](https://youtu.be/Mrce1hDpajo)
 
-**Click on the image above to watch the complete project demo video.**
+> **👆 Click on the image above to watch the complete project demo video.**
+
 ---
 ## 🗄️ Database Setup
 
