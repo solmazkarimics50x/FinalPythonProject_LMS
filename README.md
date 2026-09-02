@@ -61,15 +61,20 @@ This is a **desktop Learning Management System** for educational institutions to
 
 ## 🚀 Quick Start
 
-```bash
+
 # Clone the repository
+```bash
 git clone https://github.com/solmazkarimics50x/FinalProjectPython_LMS.git
 cd FinalProjectPython_LMS
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # Run the application
+```bash
 python LoginModule.py
 ```
 ## 🖥️ Executable File
@@ -129,6 +134,45 @@ FinalProjectPython_SolmazKarimi/
 ```
 ## 🎥 Video Tutorial
 [![Learning Management System - Desktop App with CustomTkinter & SQL](https://img.youtube.com/vi/Mrce1hDpajo/0.jpg)](https://youtu.be/Mrce1hDpajo)
+
+**Click on the image above to watch the complete project demo video.**
+---
+## 🗄️ Database Setup
+
+The database is managed as a **Visual Studio SQL Server Project**. All scripts are in the `Backup_ScriptsDatabase_Project` folder.
+
+### 📁 Scripts Overview
+
+| Folder/File | Contents |
+|-------------|----------|
+| **dbo/Tables/** | Table creation scripts (Students, Teachers, Courses, etc.) |
+| **dbo/Stored Procedures/** | CRUD operations (Insert, Update, Delete, Select) |
+| **DatabaseDiagrams.sql** | Entity-Relationship diagram |
+| **DS_1403_09_SK_Project.sqlproj** | Visual Studio project file |
+
+### 🚀 Quick Setup
+
+1. **Open** `DS_1403_09_SK_Project.sqlproj` in Visual Studio
+2. **Build** and **Publish** to your SQL Server
+3. **Or** run scripts manually in SSMS:
+   - First: `dbo/Tables/*.sql`
+   - Second: `dbo/Stored Procedures/*.sql`
+   - Optional: `DatabaseDiagrams.sql`
+
+### 🔗 Connection Configuration
+
+The database connection is managed in `DataAccessLayer/ConnectionString.py`.  
+To connect to your SQL Server, update the following variables:
+
+```python
+# ConnectionString.py
+
+Driver = 'SQL Server'  # ODBC driver name
+Server = 'YOUR_SERVER_NAME'  # e.g., 'localhost' or 'DESKTOP-XXX'
+Database = 'DS_1403_09_SK'   # Database name
+Username = 'YOUR_USERNAME'   # e.g., 'sa'
+Password = 'YOUR_PASSWORD'   # Your SQL Server password
+```
 
 ---
 ## 👨‍🏫 Acknowledgments
