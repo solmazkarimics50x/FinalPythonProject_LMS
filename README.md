@@ -1,5 +1,8 @@
 # 🎓 Learning Management System (LMS)
 
+[![GitHub stars](https://img.shields.io/github/stars/solmazkarimics50x/FinalPythonProject_LMS.svg?style=social&label=Star&maxAge=2592000)](https://github.com/solmazkarimics50x/FinalPythonProject_LMS)
+
+
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/)
 [![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-green.svg)](https://customtkinter.tomschimansky.com/)
 [![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red.svg)](https://www.microsoft.com/en-us/sql-server/)
