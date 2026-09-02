@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/)
 [![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-green.svg)](https://customtkinter.tomschimansky.com/)
 [![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red.svg)](https://www.microsoft.com/en-us/sql-server/)
+[![Platform](https://img.shields.io/badge/Platform-Windows_10-yellow.svg)](https://www.microsoft.com/windows/)
 
 ---
 ## 🎯 Project Overview
