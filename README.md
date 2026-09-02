@@ -7,12 +7,11 @@
 [![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-green.svg)](https://customtkinter.tomschimansky.com/)
 [![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red.svg)](https://www.microsoft.com/en-us/sql-server/)
 
-> **A Comprehensive Desktop Learning Management System for Educational Institutions**
->
+---
+## 🎯 Project Overview
+**A Comprehensive Desktop Learning Management System for Educational Institutions**
 
-## 📖 Overview
-
-This is a **desktop Learning Management System** for educational institutions to manage students, teachers, employees, courses, departments, and scores. The project follows a **multi-layer architecture** and was developed as the final project of the Python Data Science course under the supervision of **Mr.Vahid Ghorbani**.
+This desktop application is designed to help educational institutions manage their courses, students, instructors, and grades efficiently. Built with Python and CustomTkinter, it provides a modern and user-friendly interface for administrators, teachers, and students.
 
 ---
 
