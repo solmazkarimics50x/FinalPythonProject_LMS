@@ -61,28 +61,22 @@ This is a **desktop Learning Management System** for educational institutions to
 
 ## 🚀 Quick Start
 
-
-# Clone the repository
 ```bash
+# Clone the repository
 git clone https://github.com/solmazkarimics50x/FinalProjectPython_LMS.git
 cd FinalProjectPython_LMS
-```
 
 # Install dependencies
-```bash
 pip install -r requirements.txt
-```
 
 # Run the application
-```bash
 python LoginModule.py
-```
-## 🖥️ Executable File
 
+## 🖥️ Executable File
 A pre-built .exe file is available at:
-```bash
 PythonProjectSolmazwithAdminNonAdmin/output/SematecLMS.exe
 ```
+
 ## Requirements to run the EXE:
 - Windows 10
 - SQL Server 2019 installed
