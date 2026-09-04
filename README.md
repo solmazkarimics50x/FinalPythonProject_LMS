@@ -82,7 +82,7 @@ PythonProjectSolmazwithAdminNonAdmin/output/SematecLMS.exe
 
 ## Requirements to run the EXE:
 - Windows 10
-- SQL Server 2019 installed
+- SQL Server 2022 installed
 - ODBC Driver for SQL Server
 
 ---
@@ -150,7 +150,7 @@ The database is managed as a **Visual Studio SQL Server Project**. All scripts a
 
 ### 🚀 Quick Setup
 
-1. **Open** `DS_1403_09_SK_Project.sqlproj` in Visual Studio
+1. **Open** `DS_1403_09_SK_Project.sqlproj` in Visual Studio 2019
 2. **Build** and **Publish** to your SQL Server
 3. **Or** run scripts manually in SSMS:
    - First: `dbo/Tables/*.sql`
